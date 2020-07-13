@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+}
+
+h4{
+    margin-left: 50px;
+}
+
+.logOutButton{
+    margin: 20px;
+}

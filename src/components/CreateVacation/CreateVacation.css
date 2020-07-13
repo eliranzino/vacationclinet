@@ -1,0 +1,13 @@
+.saveBtn{
+    margin: 10px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.createVacation{
+  border-style: solid;
+  border-radius: 25px;
+  background-image: url('https://st2.depositphotos.com/1542745/7307/i/950/depositphotos_73077983-stock-photo-beach-sand-background.jpg');
+}

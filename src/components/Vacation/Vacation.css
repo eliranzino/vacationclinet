@@ -1,0 +1,112 @@
+.Vacation {
+        width: 236px;
+        height: 238px;
+        border: 1px solid #000;
+        border-radius: 4px;
+        margin: auto;
+        background-image: url("https://www.compukol.com/wp-content/uploads/yellowpaperbg.jpg");
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow-wrap: break-word;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        position: relative;
+}
+
+.card-title{
+  margin-top: 35px;
+  display: inline-block;
+}
+
+
+form{
+  padding: 10px;
+}
+
+.card-body{
+        margin-top: -20px;
+}
+
+.deleteButton{
+        position: absolute;
+        top: 10px;
+        right:10px;
+}
+.editButton{
+        position: absolute;
+        top: 50px;
+        right:10px;   
+        width: 35px; 
+}
+
+.checkbox{
+        top: 10px;
+        right: 50px;
+}
+img {
+        width: 100px;
+        height: 150px;
+        position: absolute;
+        bottom: 15px;
+}
+
+.switch {
+        position: absolute;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+      
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:checked + .slider {
+        background-color: #3bd6f1;
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+      .slider.round {
+        border-radius: 34px;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }

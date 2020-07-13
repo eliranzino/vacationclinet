@@ -1,0 +1,18 @@
+.display {
+    text-transform: uppercase;
+    background:rgb(153, 153, 223);
+    color: rgb(63, 99, 63);
+    border-radius: 10px;
+    padding: 4px 20px;
+    min-height: 4em;
+    font-size: 18px;
+    width: 200px;
+}
+.Messages {
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 4px 20px;
+    min-height: 4em;
+    font-size: 18px;
+    width: 200px;
+}
